@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="bundlex" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/bundlex/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/bundlex/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/bundlex/lib" />
+      <root url="file://$PROJECT_DIR$/deps/bundlex/priv" />
+      <root url="file://$PROJECT_DIR$/deps/bundlex/lib" />
+      <root url="file://$PROJECT_DIR$/deps/bundlex/priv" />
+    </SOURCES>
+  </library>
+</component>

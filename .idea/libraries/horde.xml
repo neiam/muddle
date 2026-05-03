@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="horde" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/horde/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/horde/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/horde/lib" />
+      <root url="file://$PROJECT_DIR$/deps/horde/lib" />
+    </SOURCES>
+  </library>
+</component>

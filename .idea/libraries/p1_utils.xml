@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="p1_utils" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/p1_utils/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/p1_utils/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/p1_utils/src" />
+      <root url="file://$PROJECT_DIR$/deps/p1_utils/src" />
+    </SOURCES>
+  </library>
+</component>

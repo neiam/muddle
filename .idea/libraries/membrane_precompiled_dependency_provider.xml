@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="membrane_precompiled_dependency_provider" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_precompiled_dependency_provider/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_precompiled_dependency_provider/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_precompiled_dependency_provider/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_precompiled_dependency_provider/priv" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_precompiled_dependency_provider/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_precompiled_dependency_provider/priv" />
+    </SOURCES>
+  </library>
+</component>

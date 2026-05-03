@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="membrane_rtc_engine" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtc_engine/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtc_engine/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtc_engine/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtc_engine/lib" />
+    </SOURCES>
+  </library>
+</component>

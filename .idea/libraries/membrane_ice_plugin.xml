@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="membrane_ice_plugin" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_ice_plugin/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_ice_plugin/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_ice_plugin/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_ice_plugin/priv" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_ice_plugin/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_ice_plugin/priv" />
+    </SOURCES>
+  </library>
+</component>

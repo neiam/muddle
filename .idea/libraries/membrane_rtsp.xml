@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="membrane_rtsp" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtsp/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtsp/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtsp/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtsp/priv" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtsp/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtsp/priv" />
+    </SOURCES>
+  </library>
+</component>

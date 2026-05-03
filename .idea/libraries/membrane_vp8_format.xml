@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="membrane_vp8_format" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_vp8_format/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_vp8_format/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_vp8_format/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_vp8_format/priv" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_vp8_format/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_vp8_format/priv" />
+    </SOURCES>
+  </library>
+</component>

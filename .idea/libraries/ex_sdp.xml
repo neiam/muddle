@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ex_sdp" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/ex_sdp/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/ex_sdp/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/ex_sdp/lib" />
+      <root url="file://$PROJECT_DIR$/deps/ex_sdp/lib" />
+    </SOURCES>
+  </library>
+</component>

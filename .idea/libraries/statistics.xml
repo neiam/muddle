@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="statistics" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/statistics/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/statistics/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/statistics/lib" />
+      <root url="file://$PROJECT_DIR$/deps/statistics/lib" />
+    </SOURCES>
+  </library>
+</component>

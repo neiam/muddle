@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="membrane_telemetry_metrics" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_telemetry_metrics/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_telemetry_metrics/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_telemetry_metrics/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_telemetry_metrics/priv" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_telemetry_metrics/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_telemetry_metrics/priv" />
+    </SOURCES>
+  </library>
+</component>

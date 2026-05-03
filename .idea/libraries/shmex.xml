@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="shmex" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/shmex/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/shmex/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/shmex/lib" />
+      <root url="file://$PROJECT_DIR$/deps/shmex/c_src" />
+      <root url="file://$PROJECT_DIR$/deps/shmex/lib" />
+      <root url="file://$PROJECT_DIR$/deps/shmex/c_src" />
+    </SOURCES>
+  </library>
+</component>

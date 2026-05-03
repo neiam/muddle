@@ -1,0 +1,24 @@
+<Layouts.app flash={@flash} current_scope={@current_scope}>
+  <section class="py-16 text-center space-y-6">
+    <h1 class="text-4xl font-bold tracking-tight">
+      <span class="font-mono text-accent">muddle</span>
+    </h1>
+    <p class="text-lg opacity-80">
+      Video calls where you can pin hats — and other things — onto your friends.
+    </p>
+
+    <div class="flex justify-center gap-2">
+      <%= if @current_scope && @current_scope.user && @current_scope.user.kind == "registered" do %>
+        <.link navigate={~p"/rooms"} class="btn btn-primary">
+          <.icon name="hero-video-camera-micro" class="size-4" /> Your rooms
+        </.link>
+        <.link navigate={~p"/accessories"} class="btn btn-ghost">
+          <.icon name="hero-sparkles-micro" class="size-4" /> Accessories
+        </.link>
+      <% else %>
+        <.link navigate={~p"/users/register"} class="btn btn-primary">Sign up</.link>
+        <.link navigate={~p"/users/log-in"} class="btn btn-ghost">Log in</.link>
+      <% end %>
+    </div>
+  </section>
+</Layouts.app>

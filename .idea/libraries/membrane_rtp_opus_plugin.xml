@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="membrane_rtp_opus_plugin" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtp_opus_plugin/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/membrane_rtp_opus_plugin/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtp_opus_plugin/lib" />
+      <root url="file://$PROJECT_DIR$/deps/membrane_rtp_opus_plugin/lib" />
+    </SOURCES>
+  </library>
+</component>

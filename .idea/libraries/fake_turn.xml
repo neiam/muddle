@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="fake_turn" type="mix">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/fake_turn/ebin" />
+      <root url="file://$PROJECT_DIR$/_build/dev/lib/fake_turn/ebin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/deps/fake_turn/src" />
+      <root url="file://$PROJECT_DIR$/deps/fake_turn/src" />
+    </SOURCES>
+  </library>
+</component>
