@@ -51,7 +51,7 @@ if config_env() == :prod do
   # DATABASE_URL when those aren't present.
   cond do
     System.get_env("POSTGRES_HOST") ->
-      config :diogramos, Diogramos.Repo,
+      config :muddle, Muddle.Repo,
              hostname: System.get_env("POSTGRES_HOST"),
              port: String.to_integer(System.get_env("POSTGRES_PORT") || "5432"),
              username:
@@ -60,12 +60,12 @@ if config_env() == :prod do
              password:
                System.get_env("POSTGRES_PASSWORD") ||
                  raise("POSTGRES_PASSWORD is required when POSTGRES_HOST is set"),
-             database: System.get_env("POSTGRES_DB") || "diogramos",
+             database: System.get_env("POSTGRES_DB") || "muddle",
              pool_size: pool_size,
              socket_options: maybe_ipv6
 
     System.get_env("DATABASE_URL") ->
-      config :diogramos, Diogramos.Repo,
+      config :muddle, Muddle.Repo,
              url: System.get_env("DATABASE_URL"),
              pool_size: pool_size,
              socket_options: maybe_ipv6
