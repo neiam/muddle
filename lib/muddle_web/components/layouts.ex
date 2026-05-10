@@ -194,38 +194,52 @@ defmodule MuddleWeb.Layouts do
   end
 
   @doc """
-  Provides dark vs light theme toggle based on themes defined in app.css.
-
-  See <head> in root.html.heex which applies the theme before page load.
+  Theme picker dropdown listing every theme defined in `app.css`, including
+  the 6 ported neiam-co themes. The selected theme is persisted to
+  localStorage by the script in `root.html.heex`, which also handles the
+  `phx:set-theme` event dispatched here.
   """
   def theme_toggle(assigns) do
+    assigns =
+      assigns
+      |> assign_new(:themes, fn -> Muddle.Themes.all() end)
+
     ~H"""
-    <div class="card relative flex flex-row items-center border-2 border-base-300 bg-base-300 rounded-full">
-      <div class="absolute w-1/3 h-full rounded-full border-1 border-base-200 bg-base-100 brightness-200 left-0 [[data-theme=light]_&]:left-1/3 [[data-theme=dark]_&]:left-2/3 transition-[left]" />
-
-      <button
-        class="flex p-2 cursor-pointer w-1/3"
-        phx-click={JS.dispatch("phx:set-theme")}
-        data-phx-theme="system"
+    <div class="dropdown dropdown-end">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-sm gap-2" aria-label="Choose theme">
+        <.icon name="hero-swatch-micro" class="size-4" />
+        <span class="hidden sm:inline">Theme</span>
+      </div>
+      <ul
+        tabindex="0"
+        class="dropdown-content menu bg-base-200 border border-base-300 rounded-box z-10 mt-1 w-44 p-1 shadow-lg"
       >
-        <.icon name="hero-computer-desktop-micro" class="size-4 opacity-75 hover:opacity-100" />
-      </button>
-
-      <button
-        class="flex p-2 cursor-pointer w-1/3"
-        phx-click={JS.dispatch("phx:set-theme")}
-        data-phx-theme="light"
-      >
-        <.icon name="hero-sun-micro" class="size-4 opacity-75 hover:opacity-100" />
-      </button>
-
-      <button
-        class="flex p-2 cursor-pointer w-1/3"
-        phx-click={JS.dispatch("phx:set-theme")}
-        data-phx-theme="dark"
-      >
-        <.icon name="hero-moon-micro" class="size-4 opacity-75 hover:opacity-100" />
-      </button>
+        <li>
+          <button
+            type="button"
+            phx-click={JS.dispatch("phx:set-theme")}
+            data-phx-theme="system"
+            class="flex items-center gap-2"
+          >
+            <.icon name="hero-computer-desktop-micro" class="size-4" /> System
+          </button>
+        </li>
+        <li :for={theme <- @themes}>
+          <button
+            type="button"
+            phx-click={JS.dispatch("phx:set-theme")}
+            data-phx-theme={theme}
+            class="flex items-center justify-between"
+          >
+            <span class="capitalize">{theme}</span>
+            <span
+              class="size-3 rounded-full border border-base-content/20"
+              data-theme={theme}
+              style="background: var(--color-primary)"
+            />
+          </button>
+        </li>
+      </ul>
     </div>
     """
   end
