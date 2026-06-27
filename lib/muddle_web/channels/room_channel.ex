@@ -26,7 +26,6 @@ defmodule MuddleWeb.RoomChannel do
       # wired on the client, missing native deps in dev, etc) we still
       # let the channel join so the LV presence/pin features work.
       case RoomEngine.add_peer(room.id, peer_id, self()) do
-        {:ok, _} -> :ok
         :ok -> :ok
         other -> require Logger; Logger.warning("[muddle] add_peer failed: #{inspect(other)}")
       end
