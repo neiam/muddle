@@ -34,9 +34,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ARC's default runner image is bare; install the toolchain needed to
-      # compile native deps.
-      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends make build-essential
+      # ARC's default runner image is bare. Install the toolchain plus
+      # pkg-config + libssl-dev, which the Membrane native deps (ex_dtls
+      # needs OpenSSL via pkg-config) compile against — same as the Dockerfile.
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends make build-essential pkg-config libssl-dev
 
       - uses: erlef/setup-beam@v1
         with:
